@@ -123,7 +123,6 @@ try {
     }
 } catch (Exception $e) {
     echo '抱歉！连接数据库失败！';
-    //echo $e->getMessage();
 }
 ?>
 <br /><br />

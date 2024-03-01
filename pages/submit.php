@@ -48,7 +48,7 @@ if ($templateMode) {
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">一句话介绍一下TA</label>
-            <textarea id="introduceTA" class="mdui-textfield-input" placeholder="镜音铃是一个元气的二次元少女"></textarea>
+            <textarea id="introduceTA" class="mdui-textfield-input" placeholder=""></textarea>
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">你要对TA说的话</label>

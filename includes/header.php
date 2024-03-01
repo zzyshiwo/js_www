@@ -36,7 +36,7 @@ error_reporting(0);
             <a href="../" class="mdui-typo-headline mdui-hidden-xs"><?php echo $siteTitle; ?></a>
             <div class="mdui-toolbar-spacer"></div>
             <button onclick="search()" mdui-tooltip="{content: '搜索'}" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"><i class="mdui-icon material-icons">search</i></button>
-            <a target="_BLANK" href="https://www.wunote.cn" mdui-tooltip="{content: '吴先森的笔记'}" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"><i class="mdui-icon material-icons">code</i></a>
+            <a target="_BLANK" href="https://www.bilibili.cn" mdui-tooltip="{content: '笔记'}" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"><i class="mdui-icon material-icons">code</i></a>
         </div>
     </header>
     <div class="mdui-drawer" id="main-drawer">
@@ -64,9 +64,7 @@ error_reporting(0);
             </div>
             <div class="copyright">
                 <div class="mdui-typo">
-                    <!-- 本程序使用GPL2.0协议开源，请遵守此协议，请勿删除本处版权，否则原作者保留一切法律权利 -->
-                    <!-- 如果看不懂GPL2.0协议请自行查看根目录人话版解释。如果想删除本处版权的请直接不要使用本程序。 -->
-                    <p class="mdui-typo-caption-opacity">© 2021 <a href="https://www.wunote.cn" target="_blank">UnknownO</a></p>
+                    <p class="mdui-typo-caption-opacity">© 2021 <a href="https://www.bilibili.cn" target="_blank">UnknownO</a></p>
                     <p class="mdui-typo-caption-opacity">
                         Powered by <a href="https://mdui.org" target="_blank">MDUI</a>
                     </p>
