@@ -4,11 +4,11 @@
 //数据库地址
 $DB_HOST = "127.0.0.1";
 //数据库名
-$DB_NAME = "jswww";
+$DB_NAME = "imzzy_fun";
 //数据库登录用户名
-$DB_USER = "root";
+$DB_USER = "imzzy_fun";
 //数据库登录密码
-$DB_PASS = "zzy66666";
+$DB_PASS = "bT7zC7ThKT";
 //管理后台账号
 $ADMIN_USER = "guanyun";
 //管理后台密码
