@@ -13,7 +13,7 @@ if ($templateMode) {
     <div class="mdui-card-content">
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">你的QQ</label>
-            <textarea id="qq" class="mdui-textfield-input" placeholder=""></textarea>
+            <textarea id="qq" class="mdui-textfield-input" placeholder="666666" ></textarea>
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">你的名字</label>
@@ -163,12 +163,11 @@ if ($templateMode) {
                 $("#toTA").val("");
                 redirect_url = <?php
                     if ($REWRITE) {
-                        echo "'/card/'+rdata.id";
+                        echo "'/card/'";
                     } else {
-                        echo "'/?page=card&id='+rdata.id";
+                        echo "'/?page=card'";
                     }
-                    ?>
-
+                    ?> + `&id=${rdata.id}`;
                 $.pjax({
                     url: redirect_url,
                     container: '#pjax-container'

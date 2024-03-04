@@ -68,7 +68,7 @@ try {
                     <div class="mdui-card-content">
                         <div class="mdui-textfield">
                             <label class="mdui-textfield-label">您的昵称</label>
-                            <input placeholder="镜音连" id="nickname" class="mdui-textfield-input" type="text" />
+                            <input placeholder="zjs" id="nickname" class="mdui-textfield-input" type="text" />
                         </div>
                         <div class="mdui-textfield">
                             <label class="mdui-textfield-label">你要说....</label>
