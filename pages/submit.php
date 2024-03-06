@@ -6,25 +6,25 @@ if ($templateMode) {
 <br /><br />
 <div class="mdui-card mdui-hoverable" style="border-radius: 16px">
     <div class="mdui-card-primary">
-        <div class="mdui-card-primary-title">立即表白</div>
-        <div class="mdui-card-primary-subtitle">快向你喜欢的TA表白吧！</div>
+        <div class="mdui-card-primary-title">立即发布</div>
+        <div class="mdui-card-primary-subtitle">上传相关信息吧</div>
     </div>
     <div class="mdui-divider"></div>
     <div class="mdui-card-content">
         <div class="mdui-textfield">
-            <label class="mdui-textfield-label">你的QQ</label>
+            <label class="mdui-textfield-label">联系方式</label>
             <textarea id="qq" class="mdui-textfield-input" placeholder="666666" ></textarea>
         </div>
         <div class="mdui-textfield">
-            <label class="mdui-textfield-label">你的名字</label>
+            <label class="mdui-textfield-label">名字</label>
             <textarea id="name" class="mdui-textfield-input" placeholder="zjs"></textarea>
         </div>
-        <div class="mdui-textfield">
+        <!-- <div class="mdui-textfield">
             <label class="mdui-textfield-label">TA的名字</label>
             <textarea id="taName" class="mdui-textfield-input" placeholder="zyy"></textarea>
-        </div>
+        </div> -->
         <div class="mdui-textfield">
-            <label class="mdui-textfield-label">表白配图（可选）</label>
+            <label class="mdui-textfield-label">配图（可选）</label>
             <?php
             if ($UPLOAD_IMAGE) {
             ?>
@@ -47,18 +47,18 @@ if ($templateMode) {
             ?>
         </div>
         <div class="mdui-textfield">
-            <label class="mdui-textfield-label">一句话介绍一下TA</label>
+            <label class="mdui-textfield-label">主体概述</label>
             <textarea id="introduceTA" class="mdui-textfield-input" placeholder=""></textarea>
         </div>
         <div class="mdui-textfield">
-            <label class="mdui-textfield-label">你要对TA说的话</label>
-            <textarea id="toTA" class="mdui-textfield-input" rows="4" placeholder="我喜欢你..."></textarea>
+            <label class="mdui-textfield-label">主要内容</label>
+            <textarea id="toTA" class="mdui-textfield-input" rows="4" placeholder=""></textarea>
         </div>
     </div>
 
     <div class="mdui-card-actions">
         <button id="submitbtn" style="border-radius: 8px" class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-float-right" onclick="submit()">
-            发射！
+            提交！
         </button>
     </div>
     <script>
@@ -130,7 +130,6 @@ if ($templateMode) {
         function request(vCode) {
             var contact = $("#qq").val();
             var name = $("#name").val();
-            var taName = $("#taName").val();
             var image = $("#image").val();
             var introduceTA = $("#introduceTA").val();
             var toTA = $("#toTA").val();
@@ -139,7 +138,6 @@ if ($templateMode) {
                 'Kagamine Yes!' +
                 contact +
                 name +
-                taName +
                 image +
                 introduceTA +
                 toTA +
@@ -149,7 +147,6 @@ if ($templateMode) {
                 timestamp: timestamp,
                 contact: contact,
                 name: name,
-                taName: taName,
                 image: image,
                 introduceTA: introduceTA,
                 toTA: toTA,
@@ -157,7 +154,6 @@ if ($templateMode) {
             }, function(rdata) {
                 $("#qq").val("");
                 $("#name").val("");
-                $("#taName").val("");
                 $("#image").val("");
                 $("#introduceTA").val("");
                 $("#toTA").val("");

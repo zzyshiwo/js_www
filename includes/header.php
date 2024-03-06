@@ -2,7 +2,7 @@
 error_reporting(0);
 ?>
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" >
 
 <head>
     <meta charset="UTF-8">
@@ -24,7 +24,7 @@ error_reporting(0);
 </head>
 
 <body class="mdui-drawer-body-left mdui-bottom-nav-fixed mdui-appbar-with-toolbar mdui-theme-primary-pink mdui-theme-accent-pink mdui-theme-layout-auto mdui-loaded">
-    <header id="appbar" class="mdui-appbar mdui-appbar-fixed">
+<header id="appbar" class="mdui-appbar mdui-appbar-fixed">
         <audio src="<?php echo getInfo('audio') ?>" loop autoplay>
             抱歉...您的浏览器暂不支持audio标签哦！
         </audio>
@@ -64,7 +64,7 @@ error_reporting(0);
             </div>
             <div class="copyright">
                 <div class="mdui-typo">
-                    <p class="mdui-typo-caption-opacity">© 2021 <a href="https://www.bilibili.cn" target="_blank">UnknownO</a></p>
+                    <p class="mdui-typo-caption-opacity">© 2024 <a href="https://www.bilibili.cn" target="_blank">js</a></p>
                     <p class="mdui-typo-caption-opacity">
                         Powered by <a href="https://mdui.org" target="_blank">MDUI</a>
                     </p>
@@ -72,4 +72,4 @@ error_reporting(0);
             </div>
         </div>
     </div>
-    <div class="mdui-container" id="pjax-container" style="max-width: 800px;">
+    <div class="mdui-container" id="pjax-container" style="max-width: 800px; cursor: pointer;">

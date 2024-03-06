@@ -63,7 +63,7 @@ try {
                 <div class="mdui-card" style="border-radius: 16px;">
                     <div class="mdui-card-primary">
                         <div class="mdui-card-primary-title">发表您的评论</div>
-                        <div class="mdui-card-primary-subtitle">可以发表您的感想以及感受哦！</div>
+                        <div class="mdui-card-primary-subtitle">可以发表您的感想以及感受</div>
                     </div>
                     <div class="mdui-card-content">
                         <div class="mdui-textfield">
@@ -72,12 +72,12 @@ try {
                         </div>
                         <div class="mdui-textfield">
                             <label class="mdui-textfield-label">你要说....</label>
-                            <textarea id="content" class="mdui-textfield-input" rows="4" placeholder="加油！你一定能成功的！"></textarea>
+                            <textarea id="content" class="mdui-textfield-input" rows="4" placeholder=""></textarea>
                         </div>
                     </div>
                     <div class="mdui-card-actions">
                         <button id="submitbtn" style="border-radius: 8px" class="mdui-btn mdui-color-theme-accent mdui-ripple mdui-float-right" onclick="commentSubmit()">
-                            发射！
+                            提交！
                         </button>
                     </div>
                 </div>
@@ -85,7 +85,6 @@ try {
                 <div class="mdui-card" id="commentBoxMain" style="border-radius: 16px;">
                     <div class="mdui-card-primary">
                         <div class="mdui-card-primary-title">所有评论</div>
-                        <div class="mdui-card-primary-subtitle">这些都是给信的主人的评论啦！</div>
                     </div>
                     <div id="commentBox" class="mdui-card-content">
                         <?php
