@@ -21,6 +21,7 @@ error_reporting(0);
     <script src="/static/js/jquery.md5.js"></script>
     <script src="/static/js/clipboard.min.js"></script>
     <script src="/static/js/main.js"></script>
+    <script src="https://cdn.tiny.cloud/1/sdyzn1epu9ukwbwl15efnf95r5rigpamy7t2dvydzbdgdgh1/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 
 <body class="mdui-drawer-body-left mdui-bottom-nav-fixed mdui-appbar-with-toolbar mdui-theme-primary-pink mdui-theme-accent-pink mdui-theme-layout-auto mdui-loaded">
